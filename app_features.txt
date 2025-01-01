@@ -1,0 +1,20 @@
+AI-Powered Customer Retention Tool
+
+1. Tech Stack Overview
+Frontend:
+Framework: vite React.js with TypeScript
+UI Library: TailwindCSS (for styling)
+Data Fetching: Axios
+
+Backend:
+Framework: Express.JSON (Node.js)
+
+Database:
+Non-Relational: MongoDB (for semi-structured event data)
+
+
+Machine Learning:
+Framework: scikit-learn or TensorFlow for churn prediction
+Libraries: pandas, NumPy, and matplotlib for data processing and visualization
+Deployment: TensorFlow.js (to run models in the browser) or Dockerized API for hosting ML models
+DevOps & Hosting:
