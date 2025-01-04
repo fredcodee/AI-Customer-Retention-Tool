@@ -18,3 +18,31 @@ Framework: scikit-learn or TensorFlow for churn prediction
 Libraries: pandas, NumPy, and matplotlib for data processing and visualization
 Deployment: TensorFlow.js (to run models in the browser) or Dockerized API for hosting ML models
 DevOps & Hosting:
+
+----------------------------------------------------
+Data Preprocessing:
+
+Filter out users where churned is True.
+Handle missing values.
+Convert categorical variables to numerical values using techniques like one-hot encoding.
+Normalize or standardize numerical features.
+Feature Engineering:
+
+Create new features that might be useful, such as the duration of subscription, frequency of logins, etc.
+Aggregate features like the total number of missed payments, total customer support tickets, etc.
+Splitting the Data:
+
+Split the data into training and testing sets.
+Model Selection:
+
+Choose appropriate models like Logistic Regression, Random Forest.
+Training the Model:
+
+Train the model using the training dataset.
+Use cross-validation to tune hyperparameters and avoid overfitting.
+Evaluation:
+
+Evaluate the model using metrics like accuracy, precision, recall, F1-score, and ROC-AUC.
+Prediction:
+
+Use the trained model to predict the likelihood of churn for users where churned is False.
